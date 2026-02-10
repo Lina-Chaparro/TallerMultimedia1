@@ -25,6 +25,7 @@ body{
     display: grid;
     grid-template-rows: auto 1fr auto;
     width: 300px;
+   
 }
 
 
@@ -53,6 +54,7 @@ body{
 .form {
     display: flex;
     flex-direction: column;
+    margin: 10px;
 }
 
 .label {
@@ -88,6 +90,20 @@ body{
     margin-bottom: 30px;
 }
 
+.signup-button {
+    background-color: var(--white);
+    border-radius: 8px;
+    border:none;
+    color: var(--red);
+    width: 100%;
+    cursor:pointer;
+    font-size: var(--md);
+    font-weight: bold;
+    height: 50px;
+    border: 2px solid var(--red);
+    
+}
+
 .email {
     width: 90px;
     margin-bottom: 10px;
@@ -120,4 +136,12 @@ body{
  .logo{
     display: block;
  }
+}
+
+@media (max-width: 640px) {
+  #createbutton {
+    position: fixed;
+    bottom: 5px;
+    max-width: 280px;
+  }
 }

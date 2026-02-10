@@ -17,7 +17,7 @@ splay=swap" rel="stylesheet">
 <!-- Favicon -->
 <link rel="icon" type="image/svg" href="./logos/favicon.svg">
 
-<title>Password</title>
+<title>Log-in</title>
 </head>
 
 <body>
@@ -25,20 +25,21 @@ splay=swap" rel="stylesheet">
         <div class="form-container">
             <img src="./logos/logo.svg" alt="logo" class="logo">
 
-            <h1 class="title">Create a new password</h1>
-            <p class="subtitle">Enter a new password for your account</p>
-
-            <form action="/email.html" class="form">
-            <label for="password" class="label">Password</label>
-            <input type="password" id="password" placeholder="*********" class="input input-password">
+            <form action="/" class="form">
+            <label for="address" class="label">Email address</label>
+            <input type="email" id="email" placeholder="email@uniboyaca.edu.co" class="input input-email" >
             
-            <label for="new-password" class="label">Confirm Password</label>
+            <label for="password" class="label" >Password</label>
             <input type="password" id="password" placeholder="*********" class="input input-password">
 
-            <input type="submit" value="Confirm" id="Confirm" class="primary-button login-button">
+            <input type="submit" value="Log in" id="Log-in" class="primary-button login-button">
+
+            <p class="subtitle"><span class="resend">Forgot my password</span></p>
+
+            <input type="submit" value="Sign up" id="Signup" class="primary-button signup-button">
 
             </form>
-        </div>
+        </div>  
     </div>
 
 </body>
