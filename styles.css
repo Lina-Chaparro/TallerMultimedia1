@@ -209,6 +209,7 @@ body{
 .menu-container li:nth-child(3){
     font-weight: normal;
     font-size: var(--sm);
+    margin-top: 10px;
     border-top: 1px solid black;
 }
 
