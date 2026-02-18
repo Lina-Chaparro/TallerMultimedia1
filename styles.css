@@ -204,8 +204,7 @@ body{
     line-height: 4;
     
 }
-
-
+/*linea de arriba y no negrilla*/
 .menu-container li:nth-child(3){
     font-weight: normal;
     font-size: var(--sm);
@@ -216,6 +215,39 @@ body{
 .menu-container li:not(:last-child){
     line-height: 2;
 }
+
+
+.menu-container-mobile{
+    list-style-type: none; /*Borrar puntos de lista*/
+    padding:20px;
+    padding-bottom:0px;
+    padding-top:20px;
+    text-align: left;
+    font-weight: bold;
+    font-size: var(--md);
+    line-height: 2.5;
+    
+}
+
+/*linea de arriba de orders*/
+.menu-container-mobile li:nth-child(7){ 
+    margin-top: 10px;
+    border-top: 1px solid black;
+    line-height: 3;
+}
+
+/*no negrilla en correo*/
+.menu-container-mobile li:nth-child(9){
+    font-weight: normal;
+    font-size: var(--sm);
+}
+
+/*Letra mas pequeña del signout*/
+.menu-container-mobile li:last-child{
+    font-size: var(--sm);
+}
+
+
 
 @media (max-width: 640px){
  .logo{
